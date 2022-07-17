@@ -34,7 +34,7 @@ ________________________________________________________________________________
         </ul>
     <li><a href="#Guidance">Guidance</a>
         <ul>
-            <li><a href="#Software: QT-Creator">Software: QT creator</a>
+            <li><a href="#Software: QT Creator">Software: QT Creator</a>
             <li><a href="#Test">Test</a>
             <li><a href="#Static Library">Static Library</a>
         </ul>
