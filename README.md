@@ -29,12 +29,12 @@ ________________________________________________________________________________
     <li><a href="#Introduction">Introduction</a>
         <ul>
             <li><a href="#Schedule">Schedule</a>
-            <li><a href="#Components">Components</a>
+            <li><a href="#Hardware">Components</a>
             <li><a href="#Processflow">Processflow</a>
         </ul>
     <li><a href="#Guidance">Guidance</a>
         <ul>
-            <li><a href="#QT-Creator">QT creator</a>
+            <li><a href="#Software:QT-Creator">QT creator</a>
             <li><a href="#Test">Test</a>
             <li><a href="#Static Library">Static Library</a>
         </ul>
