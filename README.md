@@ -43,7 +43,7 @@ ________________________________________________________________________________
 
 # Introduction
 
-The advancement of society and technology has made the world pay more attention to environmental issues, and the trend of electric motors to replace traditional mechanical engines has become more and more clear. Meanwhile, the automation of driving has also become an important part of this technological revolution. This includes the large-scale industrial platforms of automobile companies but also the needs of individuals for motor vehicles to complete small daily life tasks. Under this demand, we have developed a motor-driven trolley on a semi-mature hardware platform using C and C++ language which can be remotely controlled and can be equipped with various expansion devices. The application field can be production activities such as site management.
+The advancement of society and technology has made the world pay more attention to environmental issues, and the trend of electric motors to replace traditional mechanical engines has become more and more clear. Meanwhile, the automation of driving has also become an important part of this technological revolution. This includes the large-scale industrial platforms of automobile companies but also the needs of individuals for motor vehicles to complete small daily life tasks. Under this demand, we have developed a motor-driven trolley on a semi-mature hardware platform using C++ language which can be remotely controlled and can be equipped with various expansion devices. The application field can be production activities such as site management.
 
 
 ## Schedule
@@ -53,10 +53,9 @@ The advancement of society and technology has made the world pay more attention 
   </p>
 <br/>
 
-## Components
+## Hardware
 
 • Raspberry Pi 4 <br/>
-• C/C++ Language for embedded-coding <br/>
 • Freenove Car Develop Kit <br/>
 • 5V/3A power adapter <br/>
 • Micro SD card and reader <br/>
@@ -70,7 +69,7 @@ The advancement of society and technology has made the world pay more attention 
 
 # Guidance
 
-## QT Creator
+## Software: QT Creator
 In this project, we download QT creator Software on Windows to design the GUI for controlling the mini car remotely. It’s important to create and connect **_sockets_** to send data in a network. With the IP address and port of Raspberry Pi, we can establish connection between server and client by TCP protocol. 
 
   </p>
