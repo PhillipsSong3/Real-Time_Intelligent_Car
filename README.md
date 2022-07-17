@@ -71,13 +71,13 @@ The advancement of society and technology has made the world pay more attention 
 # Guidance
 
 ## QT Creator
-In this project, we download QT creator Software on Windows to design the GUI for controlling the mini car remotely. It’s important to create and connect **_sockets_** to send data in a network. With the IP address and port of Raspberry Pi, we can establish connection between server and client by TCP protocol. Following is the stream-based socket connection using TCP protocol.
-<p align="center">
-<img src="https://github.com/PhillipsSong3/Real-Time_Intelligent_Car/blob/main/QT%20creator.png" width="300" height="350">
+In this project, we download QT creator Software on Windows to design the GUI for controlling the mini car remotely. It’s important to create and connect **_sockets_** to send data in a network. With the IP address and port of Raspberry Pi, we can establish connection between server and client by TCP protocol. 
+
   </p>
 <br/>
 After running the "client" project in QT Creator Software, the UI design is shown below. Once we click the connect button, the "off" on the screen will change to “connect successful” and now we can control the mini car！
-
+ </p>
+<br/>
 <p align="center">
 <img src="https://github.com/PhillipsSong3/Real-Time_Intelligent_Car/blob/main/mainwindow.png" width="250" height="250">
   </p>
