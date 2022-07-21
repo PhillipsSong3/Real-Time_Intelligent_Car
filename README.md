@@ -73,7 +73,7 @@ In addition, we added the motor test code. we also added some command to determi
 
 ## Processflow
 <p align="center">
-<img src="https://github.com/PhillipsSong3/Real-Time_Intelligent_Car/blob/main/processflow.png" width="600" height="800">
+<img src="https://github.com/PhillipsSong3/Real-Time_Intelligent_Car/blob/main/Processflow.png" width="600" height="800">
   </p>
 <br/>
 
