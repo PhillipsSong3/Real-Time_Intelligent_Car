@@ -79,7 +79,7 @@ In addition, we added the motor test code. we also added some command to determi
 
 # Guidance
 
-## Software: QT Creator
+## QT Creator
 In this project, we download QT creator Software on Windows to design the GUI for controlling the mini car remotely. It’s important to create and connect **_sockets_** to send data in a network. With the IP address and port of Raspberry Pi, we can establish connection between server and client by TCP protocol. 
 
   </p>
