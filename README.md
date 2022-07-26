@@ -8,7 +8,7 @@
 <br/>
 
 <p align="center">
-    <a href="https://www.youtube.com/watch?v=-Maqk7YZIQ4" alt="Contributors">
+    <a href="https://www.youtube.com/watch?v=QDpyT-kJSlc" alt="Contributors">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/></a>
     <a href="https://github.com/PhillipsSong3/Real-Time_Intelligent_Car/blob/main/LICENSE" alt="License">
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" height="40" width="40" /></a>
