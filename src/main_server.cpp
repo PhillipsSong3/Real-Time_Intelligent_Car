@@ -75,7 +75,7 @@ int main()
 		}
 		else if(strcmp(revData,"DOWN") == 0){
 			go_down();//perform down
-			cout<<"down"<< '\n';//[erform down
+			cout<<"down"<< '\n';//perform down
 		}
 		else if(strcmp(revData,"LEFT") == 0){
 			go_left();
