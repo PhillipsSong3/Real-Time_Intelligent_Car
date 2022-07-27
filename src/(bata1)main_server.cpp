@@ -15,7 +15,7 @@ using namespace std;
 #include "right.cpp"
 #include "left.cpp"
 #include "stop.cpp"
-//111111 直接引用:在一个cpp文件中调用另外一个cpp文件, main.cpp与xxx.cpp在同一目录下
+//direct quote锛欳all one CPP file from another CPP file, main. CPP in the same directory as xxx. CPP 
 
 int main()
 {
@@ -27,14 +27,14 @@ int main()
 		exit(-1);
 	}
 	cout << "socket creation successfully" << endl;
-	//**** bind ip and port
+	//bind ip and port
 	struct sockaddr_in serverAddr;
 	memset(&serverAddr, 0, sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
 	serverAddr.sin_port = htons(USEPORT);
 	//INADDR_ANY
 	serverAddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	//**** bind socket
+	//bind socket
 	if (bind(serverSock,
 		(struct sockaddr*)&serverAddr,
 		sizeof(struct sockaddr)) == -1)
@@ -44,22 +44,21 @@ int main()
 	}
 	cout << "Bind successfully" << endl;
 
-	//**** listen
+	//listen
 	if (listen(serverSock, 10) == -1)
 	{
 		cout << "Listen error!" << endl;
 	}
 	cout << "Listening on port[" << USEPORT << "]" << endl;
 
-	//**** start to accept
+	//start to accept
 	struct sockaddr clientAddr;
 	int size = sizeof(struct sockaddr);
 
 	int clientSock = accept(serverSock, (struct sockaddr*)&clientAddr, (socklen_t*)&size);
 
 	cout << "The Controler Connected!" << endl;
-	//system("sudo python stop.py");//2222222
-	//**** communication
+	//communication
 	while (1)
 	{
 		char revData[5];
@@ -72,35 +71,29 @@ int main()
 		cout<<"revData:"<<revData<<endl;
 		if(strcmp(revData, "UPUP") == 0){
 			cout<<"up"<< '\n';
-			/*system("ls");打开system清单，py
-			system("sudo python up.py");引用 py的up文件*/
-			//3333333
-			go_up();//或者试试return go_up();
-			//444
+			go_up();//perform up
 		}
 		else if(strcmp(revData,"DOWN") == 0){
-			/*system("sudo python down.py");*/
-			go_down();
-			cout<<"down"<< '\n';
+			go_down();//perform down
+			cout<<"down"<< '\n';//[erform down
 		}
 		else if(strcmp(revData,"LEFT") == 0){
-			/*system("sudo python left.py");*/
 			go_left();
-			cout<<"left"<< '\n';
-			/*printf是C语言的输出函数，C++兼容C所以也可以在C++中使用；cout是C++专有的输出流ostream对象*/
+			cout<<"left"<< '\n';//perform dowm
+			/*Printf is the output function of C language, C++ is compatible with C, so it can also be used in C++; Cout is a C++ -specific output stream ostream object*/
 		}
 		else if(strcmp(revData,"RIGHT") == 0){
 			/*system("sudo python right.py");*/
-			go_right();
+			go_right();//perfom right
 			cout<<"right"<< '\n';
 		}
 		else if(strcmp(revData,"STOP") == 0){
 			/*system("sudo python stop.py");*/
-			go_stop();
+			go_stop();//perdorm stop
 			cout<<"stop"<< '\n';
 		}
 		else if(strcmp(revData,"QUIT") == 0){
-			cout<<"shutdown"<<endl;
+			cout<<"shutdown"<<endl;//perform quit
 			break;
 		}
 	}
