@@ -80,15 +80,13 @@ int main()
 		else if(strcmp(revData,"LEFT") == 0){
 			go_left();
 			cout<<"left"<< '\n';//perform dowm
-			/*Printf is the output function of C language, C++ is compatible with C, so it can also be used in C++; 
-			Cout is a C++ -specific output stream ostream object*/
 		}
 		else if(strcmp(revData,"RIGHT") == 0){
-			go_right();//perfom right
+			go_right();//perform right
 			cout<<"right"<< '\n';
 		}
 		else if(strcmp(revData,"STOP") == 0){
-			go_stop();//perdorm stop
+			go_stop();//perform stop
 			cout<<"stop"<< '\n';
 		}
 		else if(strcmp(revData,"QUIT") == 0){
