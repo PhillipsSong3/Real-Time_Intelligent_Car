@@ -19,7 +19,7 @@ using namespace std;
 
 int main()
 {
-	//**** create socket
+	//create socket
 	int serverSock = socket(AF_INET, SOCK_STREAM, 0);
 	if (serverSock < 0)
 	{
