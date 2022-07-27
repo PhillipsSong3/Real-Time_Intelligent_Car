@@ -70,23 +70,23 @@ int main()
 		cout<<"lenth:"<<ret<<endl;
 		cout<<"revData:"<<revData<<endl;
 		if(strcmp(revData, "UPUP") == 0){
+			go_up();     //perform up
 			cout<<"up"<< '\n';
-			go_up();//perform up
 		}
 		else if(strcmp(revData,"DOWN") == 0){
-			go_down();//perform down
-			cout<<"down"<< '\n';//perform down
+			go_down();   //perform down
+			cout<<"down"<< '\n';
 		}
 		else if(strcmp(revData,"LEFT") == 0){
-			go_left();
-			cout<<"left"<< '\n';//perform dowm
+			go_left();   //perform left
+			cout<<"left"<< '\n';
 		}
 		else if(strcmp(revData,"RIGHT") == 0){
-			go_right();//perform right
+			go_right();  //perform right
 			cout<<"right"<< '\n';
 		}
 		else if(strcmp(revData,"STOP") == 0){
-			go_stop();//perform stop
+			go_stop();   //perform stop
 			cout<<"stop"<< '\n';
 		}
 		else if(strcmp(revData,"QUIT") == 0){
