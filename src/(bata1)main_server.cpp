@@ -80,15 +80,14 @@ int main()
 		else if(strcmp(revData,"LEFT") == 0){
 			go_left();
 			cout<<"left"<< '\n';//perform dowm
-			/*Printf is the output function of C language, C++ is compatible with C, so it can also be used in C++; Cout is a C++ -specific output stream ostream object*/
+			/*Printf is the output function of C language, C++ is compatible with C, so it can also be used in C++; 
+			Cout is a C++ -specific output stream ostream object*/
 		}
 		else if(strcmp(revData,"RIGHT") == 0){
-			/*system("sudo python right.py");*/
 			go_right();//perfom right
 			cout<<"right"<< '\n';
 		}
 		else if(strcmp(revData,"STOP") == 0){
-			/*system("sudo python stop.py");*/
 			go_stop();//perdorm stop
 			cout<<"stop"<< '\n';
 		}
