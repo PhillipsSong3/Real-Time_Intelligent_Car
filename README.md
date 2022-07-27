@@ -35,7 +35,7 @@ ________________________________________________________________________________
     <li><a href="#Guidance">Guidance</a>
         <ul>
             <li><a href="#QT Creator">QT Creator</a>
-            <li><a href="#Test">Test</a>
+            <li><a href="#Run">Run</a>
             <li><a href="#Static Library">Static Library</a>
         </ul>
     <li><a href="#Authors">Authors</a>
