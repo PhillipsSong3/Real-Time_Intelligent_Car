@@ -92,9 +92,9 @@ After running the "client" project in QT Creator Software, the UI design is show
   </p>
 <br/>
 
-## Test
+## Run
 
-### 1. How to test code on Raspberry through Terminal console
+### 1. How to run code on Raspberry through Terminal console
 ```
 cd ~/smartcar  
 g++ pca9685.cpp -lwiringPi -o pcatest
@@ -102,7 +102,7 @@ g++ pca9685.cpp -lwiringPi -o pcatest
 ```
 ##### (smartcar is the folder where cpp files exist, the second line is to compile the pca9685.cpp with the aid of wiringPi library and generate a executable file called pcatest and the third line is to execute the pcatest in the same path）
 
-### 2. The test of motor is similar with the previous step:
+### 2. The run of motor is similar with the previous step:
 ```
 cd ~/smartcar   
 g++ motor.cpp -lwiringPi -o motortest
