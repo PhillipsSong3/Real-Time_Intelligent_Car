@@ -84,7 +84,7 @@ In this project, we download QT creator Software on Windows to design the GUI fo
 
   </p>
 <br/>
-After running the "client" project in QT Creator Software, the UI design is shown below. Once we click the connect button, the "off" on the screen will change to “connect successful” and now we can control the mini car！
+After running the "QT_client" project in QT Creator Software, the UI design is shown below. Once we click the connect button, the "off" on the screen will change to “connect successful” and now we can control the mini car！
  </p>
 <br/>
 <p align="center">
