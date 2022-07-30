@@ -143,9 +143,9 @@ public:
         right_lower_wheel(duty4);
     }
 };
-Motor m_up;
-Motor m_down;
-Motor m_left;
-Motor m_right;
-Motor m_stop;
+// Motor m_up;
+// Motor m_down;
+// Motor m_left;
+// Motor m_right;
+// Motor m_stop;
 
